@@ -21,3 +21,5 @@
 3. sudo netdiscover -i eth0 : Menampilkan scan jaringan anda
 4. systemd-resolve --status : Menampilkan informasi DNS
 5. sudo systemctl restart network-manager.service : restart network setelah melakukan perubahan
+6. htop             : informasi penggunaan prosesor 
+7. free             : informasi penggunaan memori yang terpakai dan yang kosong
