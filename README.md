@@ -14,6 +14,7 @@
 11. df -h                       : Cek penggunaan disk
 12. tar -cvf dir.tar dir/       : Arsipkan direktori (gzip/,gz tambah -czvf)
 13. tar -xcf dir.tar            : Ekstrak direktori
+14. string file.txt             : Membaca file yang dapat di baca manusia
 
 (Networking)
 1. ip route show        : Menampilkan ip router/gateway
