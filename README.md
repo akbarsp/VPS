@@ -23,3 +23,20 @@
 5. sudo systemctl restart network-manager.service : restart network setelah melakukan perubahan
 6. htop             : informasi penggunaan prosesor 
 7. free             : informasi penggunaan memori yang terpakai dan yang kosong
+
+(firewall)
+1. sudo ufw status        : Status rule firewall (verbose, numbered)
+2. sudo ufw enbable       : Mengaktifkan firewall
+3. sudo ufw disable       : Mematikan firewall
+4. sudo ufw reset         : Reset firewall ke default
+5. sudo ufw allow/deny ssh     : Memasukan semua koneksi ssh(port22)
+6. sudo ufw allow/deny http    : Memasukan semua koneksi http(port80)
+7. sudo ufw allow/deny https   : Memasukan semua koneksi https(port443)
+8. sudo ufw allow from (IP) to any port 22  : Mengizinkan ip tersebut mengakses ssh(22)
+
+(Clear tracks & Logs)
+Directori : /var/Logs
+1. auth.log : tempat file rusak
+2. kernel.log : tempat history bash
+
+1. shred -vfzu  : Menghapus permanen .log
