@@ -15,6 +15,7 @@
 12. tar -cvf dir.tar dir/       : Arsipkan direktori (gzip/,gz tambah -czvf)
 13. tar -xcf dir.tar            : Ekstrak direktori
 14. string file.txt             : Membaca file yang dapat di baca manusia
+15. tr 'A-Za-z' 'N-ZA-Mn-za-m'  : Untuk ROT13 suatu kode
 
 (Networking)
 1. ip route show        : Menampilkan ip router/gateway
